@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from \"redux\";\nimport firstFetch from \"./reducerAction\"; //Defining the main Reducer\n\nvar rootReducer = combineReducers({\n  firstFetch: firstFetch\n});\nexport default rootReducer;","map":null,"metadata":{},"sourceType":"module"}
